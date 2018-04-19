@@ -1,0 +1,180 @@
+02/07/18 01:50:45 PM|ERROR|com.metrix.architecture.database.MobileApplication:handleUncaughtException|main|java.lang.RuntimeException: Unable to start activity ComponentInfo{com.metrix.metrixmobile/com.metrix.metrixmobile.system.Login}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6077)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at com.metrix.metrixmobile.system.Login.onCreate(Login.java:123)
+	at android.app.Activity.performCreate(Activity.java:6662)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2599)
+	... 9 more
+
+
+02/07/18 01:50:45 PM|ERROR|com.metrix.architecture.database.MetrixDatabaseManager:getFieldStringValue|main|java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.metrix.architecture.database.MetrixDatabaseAdapter.getFieldStringValue(java.lang.String, java.lang.String, java.lang.String)' on a null object reference
+	at com.metrix.architecture.database.MetrixDatabaseManager.getFieldStringValue(MetrixDatabaseManager.java:600)
+	at com.metrix.architecture.database.MetrixDatabaseManager.getAppParam(MetrixDatabaseManager.java:190)
+	at com.metrix.architecture.database.MobileApplication.getAppParam(MobileApplication.java:495)
+	at com.metrix.architecture.utilities.LogManager.sendEmail(LogManager.java:392)
+	at com.metrix.architecture.database.MobileApplication.handleUncaughtException(MobileApplication.java:106)
+	at com.metrix.architecture.database.MobileApplication$1.uncaughtException(MobileApplication.java:72)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1063)
+
+
+02/07/18 01:51:13 PM|ERROR|com.metrix.architecture.database.MobileApplication:handleUncaughtException|main|java.lang.RuntimeException: Unable to start activity ComponentInfo{com.metrix.metrixmobile/com.metrix.metrixmobile.system.Login}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6077)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at com.metrix.metrixmobile.system.Login.onCreate(Login.java:123)
+	at android.app.Activity.performCreate(Activity.java:6662)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2599)
+	... 9 more
+
+
+02/07/18 01:51:13 PM|ERROR|com.metrix.architecture.database.MetrixDatabaseManager:getFieldStringValue|main|java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.metrix.architecture.database.MetrixDatabaseAdapter.getFieldStringValue(java.lang.String, java.lang.String, java.lang.String)' on a null object reference
+	at com.metrix.architecture.database.MetrixDatabaseManager.getFieldStringValue(MetrixDatabaseManager.java:600)
+	at com.metrix.architecture.database.MetrixDatabaseManager.getAppParam(MetrixDatabaseManager.java:190)
+	at com.metrix.architecture.database.MobileApplication.getAppParam(MobileApplication.java:495)
+	at com.metrix.architecture.utilities.LogManager.sendEmail(LogManager.java:392)
+	at com.metrix.architecture.database.MobileApplication.handleUncaughtException(MobileApplication.java:106)
+	at com.metrix.architecture.database.MobileApplication$1.uncaughtException(MobileApplication.java:72)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1063)
+
+
+02/07/18 01:52:39 PM|ERROR|com.metrix.architecture.database.MobileApplication:handleUncaughtException|main|java.lang.RuntimeException: Unable to start activity ComponentInfo{com.metrix.metrixmobile/com.metrix.metrixmobile.system.Login}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6077)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at com.metrix.metrixmobile.system.Login.onCreate(Login.java:123)
+	at android.app.Activity.performCreate(Activity.java:6662)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2599)
+	... 9 more
+
+
+02/07/18 01:52:39 PM|ERROR|com.metrix.architecture.database.MetrixDatabaseManager:getFieldStringValue|main|java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.metrix.architecture.database.MetrixDatabaseAdapter.getFieldStringValue(java.lang.String, java.lang.String, java.lang.String)' on a null object reference
+	at com.metrix.architecture.database.MetrixDatabaseManager.getFieldStringValue(MetrixDatabaseManager.java:600)
+	at com.metrix.architecture.database.MetrixDatabaseManager.getAppParam(MetrixDatabaseManager.java:190)
+	at com.metrix.architecture.database.MobileApplication.getAppParam(MobileApplication.java:495)
+	at com.metrix.architecture.utilities.LogManager.sendEmail(LogManager.java:392)
+	at com.metrix.architecture.database.MobileApplication.handleUncaughtException(MobileApplication.java:106)
+	at com.metrix.architecture.database.MobileApplication$1.uncaughtException(MobileApplication.java:72)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1063)
+
+
+02/07/18 05:53:37 PM|ERROR|com.metrix.architecture.database.MobileApplication:handleUncaughtException|main|java.lang.RuntimeException: Unable to start activity ComponentInfo{com.metrix.metrixmobile/com.metrix.metrixmobile.system.ActivateDevice}: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.SharedPreferences android.content.Context.getSharedPreferences(java.lang.String, int)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6077)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.SharedPreferences android.content.Context.getSharedPreferences(java.lang.String, int)' on a null object reference
+	at com.metrix.metrixmobile.system.ActivateDevice.onCreate(ActivateDevice.java:109)
+	at android.app.Activity.performCreate(Activity.java:6662)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2599)
+	... 9 more
+
+
+02/07/18 05:53:37 PM|ERROR|com.metrix.architecture.database.MetrixDatabaseManager:getFieldStringValue|main|java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.metrix.architecture.database.MetrixDatabaseAdapter.getFieldStringValue(java.lang.String, java.lang.String, java.lang.String)' on a null object reference
+	at com.metrix.architecture.database.MetrixDatabaseManager.getFieldStringValue(MetrixDatabaseManager.java:600)
+	at com.metrix.architecture.database.MetrixDatabaseManager.getAppParam(MetrixDatabaseManager.java:190)
+	at com.metrix.architecture.database.MobileApplication.getAppParam(MobileApplication.java:495)
+	at com.metrix.architecture.utilities.LogManager.sendEmail(LogManager.java:392)
+	at com.metrix.architecture.database.MobileApplication.handleUncaughtException(MobileApplication.java:106)
+	at com.metrix.architecture.database.MobileApplication$1.uncaughtException(MobileApplication.java:72)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1063)
+
+
+02/07/18 05:54:35 PM|ERROR|com.metrix.architecture.database.MobileApplication:handleUncaughtException|main|java.lang.RuntimeException: Unable to start activity ComponentInfo{com.metrix.metrixmobile/com.metrix.metrixmobile.system.ActivateDevice}: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.SharedPreferences android.content.Context.getSharedPreferences(java.lang.String, int)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6077)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.SharedPreferences android.content.Context.getSharedPreferences(java.lang.String, int)' on a null object reference
+	at com.metrix.metrixmobile.system.ActivateDevice.onCreate(ActivateDevice.java:109)
+	at android.app.Activity.performCreate(Activity.java:6662)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2599)
+	... 9 more
+
+
+02/07/18 05:54:35 PM|ERROR|com.metrix.architecture.database.MetrixDatabaseManager:getFieldStringValue|main|java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.metrix.architecture.database.MetrixDatabaseAdapter.getFieldStringValue(java.lang.String, java.lang.String, java.lang.String)' on a null object reference
+	at com.metrix.architecture.database.MetrixDatabaseManager.getFieldStringValue(MetrixDatabaseManager.java:600)
+	at com.metrix.architecture.database.MetrixDatabaseManager.getAppParam(MetrixDatabaseManager.java:190)
+	at com.metrix.architecture.database.MobileApplication.getAppParam(MobileApplication.java:495)
+	at com.metrix.architecture.utilities.LogManager.sendEmail(LogManager.java:392)
+	at com.metrix.architecture.database.MobileApplication.handleUncaughtException(MobileApplication.java:106)
+	at com.metrix.architecture.database.MobileApplication$1.uncaughtException(MobileApplication.java:72)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1063)
+
+
+02/07/18 05:55:39 PM|ERROR|com.metrix.architecture.database.MobileApplication:handleUncaughtException|main|java.lang.RuntimeException: Unable to start activity ComponentInfo{com.metrix.metrixmobile/com.metrix.metrixmobile.system.ActivateDevice}: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.SharedPreferences android.content.Context.getSharedPreferences(java.lang.String, int)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6077)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.SharedPreferences android.content.Context.getSharedPreferences(java.lang.String, int)' on a null object reference
+	at com.metrix.metrixmobile.system.ActivateDevice.onCreate(ActivateDevice.java:109)
+	at android.app.Activity.performCreate(Activity.java:6662)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2599)
+	... 9 more
+
+
+02/07/18 05:55:39 PM|ERROR|com.metrix.architecture.database.MetrixDatabaseManager:getFieldStringValue|main|java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.metrix.architecture.database.MetrixDatabaseAdapter.getFieldStringValue(java.lang.String, java.lang.String, java.lang.String)' on a null object reference
+	at com.metrix.architecture.database.MetrixDatabaseManager.getFieldStringValue(MetrixDatabaseManager.java:600)
+	at com.metrix.architecture.database.MetrixDatabaseManager.getAppParam(MetrixDatabaseManager.java:190)
+	at com.metrix.architecture.database.MobileApplication.getAppParam(MobileApplication.java:495)
+	at com.metrix.architecture.utilities.LogManager.sendEmail(LogManager.java:392)
+	at com.metrix.architecture.database.MobileApplication.handleUncaughtException(MobileApplication.java:106)
+	at com.metrix.architecture.database.MobileApplication$1.uncaughtException(MobileApplication.java:72)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1063)
+
+
